@@ -1,0 +1,905 @@
+******************** PCB Dump for Process 1
+Pid = 1
+PC = 0
+AC = 0.00
+PTptr = 1add6a0
+sockfd = 0
+exeStatus = 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=10, PT=1add6a0, cycle=0
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=10, PT=1add6a0, cycle=0
+Interrupt handler: pid = 1; interrupt = 10; exeStatus = 1
+Program info: 19 12 7
+Load instruction (2000000, 12) into M(0, 0)
+Load instruction (3000000, 13) into M(0, 1)
+Load instruction (6000000, 16) into M(0, 2)
+Load instruction (7000000, 16) into M(0, 3)
+Load instruction (2000000, 14) into M(0, 4)
+Load instruction (4000000, 15) into M(0, 5)
+Load instruction (6000000, 17) into M(0, 6)
+Load instruction (2000000, 16) into M(0, 7)
+Load instruction (4000000, 17) into M(1, 0)
+Load instruction (6000000, 18) into M(1, 1)
+Load instruction (7000000, 18) into M(1, 2)
+Load instruction (1000000, 12) into M(1, 3)
+Load data: 7.00 into M(1, 4)
+Load data: 15.00 into M(1, 5)
+Load data: 5.00 into M(1, 6)
+Load data: 9.00 into M(1, 7)
+Load data: 0.00 into M(2, 0)
+Load data: 0.00 into M(2, 1)
+Load data: 0.00 into M(2, 2)
+Load 3 pages for process 2
+************ Page Table Dump for Process 2
+-2, -2, -2, -1, -1, -1, -1, -1, 
+-1, -1, -1, -1, 
+Program info: 19 12 7
+Load instruction (2000000, 12) into M(0, 0)
+Load instruction (4000000, 13) into M(0, 1)
+Load instruction (6000000, 16) into M(0, 2)
+Load instruction (7000000, 16) into M(0, 3)
+Load instruction (4000000, 14) into M(0, 4)
+Load instruction (6000000, 17) into M(0, 5)
+Load instruction (7000000, 17) into M(0, 6)
+Load instruction (3000000, 15) into M(0, 7)
+Load instruction (6000000, 18) into M(1, 0)
+Load instruction (7000000, 18) into M(1, 1)
+Load instruction (8000000, 2) into M(1, 2)
+Load instruction (1000000, 12) into M(1, 3)
+Load data: 1000.00 into M(1, 4)
+Load data: 10.00 into M(1, 5)
+Load data: 5.00 into M(1, 6)
+Load data: 10000.00 into M(1, 7)
+Load data: 0.00 into M(2, 0)
+Load data: 0.00 into M(2, 1)
+Load data: 0.00 into M(2, 2)
+Load 3 pages for process 3
+************ Page Table Dump for Process 3
+-2, -2, -2, -1, -1, -1, -1, -1, 
+-1, -1, -1, -1, 
+IV is 12, after clear is 2
+IV is 2, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=1
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=1
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=2
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=2
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+Fetched: Pid=2, PC=0, IR=(2,12), AC=0.00, MBR=7.00
+          Status=1, IV=0, PT=1ade280, cycle=3
+Executed: Pid=2, PC=1, IR=(2,12), AC=7.00, MBR=7.00
+          Status=1, IV=0, PT=1ade280, cycle=3
+Fetched: Pid=2, PC=1, IR=(3,13), AC=7.00, MBR=15.00
+          Status=1, IV=4, PT=1ade280, cycle=4
+Executed: Pid=2, PC=2, IR=(3,13), AC=22.00, MBR=15.00
+          Status=1, IV=4, PT=1ade280, cycle=4
+Interrupt handler: pid = 2; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=2, PC=2, IR=(6,16), AC=22.00, MBR=15.00
+          Status=1, IV=0, PT=1ade280, cycle=5
+Executed: Pid=2, PC=2, IR=(6,16), AC=22.00, MBR=22.00
+          Status=3, IV=8, PT=1ade280, cycle=5
+Interrupt handler: pid = 2; interrupt = 8; exeStatus = 3
+IV is 8, after clear is 0
+Fetched: Pid=3, PC=0, IR=(2,12), AC=0.00, MBR=1000.00
+          Status=1, IV=4, PT=1ade440, cycle=6
+Executed: Pid=3, PC=1, IR=(2,12), AC=1000.00, MBR=1000.00
+          Status=1, IV=4, PT=1ade440, cycle=6
+Interrupt handler: pid = 3; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=3, PC=1, IR=(4,13), AC=1000.00, MBR=10.00
+          Status=1, IV=0, PT=1ade440, cycle=7
+Executed: Pid=3, PC=2, IR=(4,13), AC=10000.00, MBR=10.00
+          Status=1, IV=2, PT=1ade440, cycle=7
+Interrupt handler: pid = 3; interrupt = 2; exeStatus = 1
+IV is 2, after clear is 0
+Fetched: Pid=3, PC=2, IR=(6,16), AC=10000.00, MBR=10.00
+          Status=1, IV=4, PT=1ade440, cycle=8
+Executed: Pid=3, PC=2, IR=(6,16), AC=10000.00, MBR=10000.00
+          Status=3, IV=c, PT=1ade440, cycle=8
+Interrupt handler: pid = 3; interrupt = c; exeStatus = 3
+IV is c, after clear is 8
+IV is 8, after clear is 0
+Fetched: Pid=2, PC=2, IR=(6,16), AC=22.00, MBR=10000.00
+          Status=1, IV=0, PT=1ade280, cycle=9
+Executed: Pid=2, PC=3, IR=(6,16), AC=22.00, MBR=22.00
+          Status=1, IV=0, PT=1ade280, cycle=9
+Fetched: Pid=2, PC=3, IR=(7,16), AC=22.00, MBR=22.00
+          Status=1, IV=6, PT=1ade280, cycle=10
+Executed: Pid=2, PC=4, IR=(7,16), AC=22.00, MBR=22.00
+          Status=4, IV=6, PT=1ade280, cycle=10
+Interrupt handler: pid = 2; interrupt = 6; exeStatus = 4
+IV is 6, after clear is 2
+IV is 2, after clear is 0
+Fetched: Pid=3, PC=2, IR=(6,16), AC=10000.00, MBR=22.00
+          Status=1, IV=0, PT=1ade440, cycle=11
+Executed: Pid=3, PC=3, IR=(6,16), AC=10000.00, MBR=10000.00
+          Status=1, IV=0, PT=1ade440, cycle=11
+Fetched: Pid=3, PC=3, IR=(7,16), AC=10000.00, MBR=10000.00
+          Status=1, IV=6, PT=1ade440, cycle=12
+Executed: Pid=3, PC=4, IR=(7,16), AC=10000.00, MBR=10000.00
+          Status=4, IV=6, PT=1ade440, cycle=12
+Interrupt handler: pid = 3; interrupt = 6; exeStatus = 4
+IV is 6, after clear is 2
+IV is 2, after clear is 0
+Fetched: Pid=2, PC=4, IR=(2,14), AC=22.00, MBR=5.00
+          Status=1, IV=2, PT=1ade280, cycle=13
+Executed: Pid=2, PC=5, IR=(2,14), AC=5.00, MBR=5.00
+          Status=1, IV=2, PT=1ade280, cycle=13
+Interrupt handler: pid = 2; interrupt = 2; exeStatus = 1
+IV is 2, after clear is 0
+Fetched: Pid=2, PC=5, IR=(4,15), AC=5.00, MBR=9.00
+          Status=1, IV=4, PT=1ade280, cycle=14
+Executed: Pid=2, PC=6, IR=(4,15), AC=45.00, MBR=9.00
+          Status=1, IV=4, PT=1ade280, cycle=14
+Interrupt handler: pid = 2; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=2, PC=6, IR=(6,17), AC=45.00, MBR=9.00
+          Status=1, IV=0, PT=1ade280, cycle=15
+Executed: Pid=2, PC=7, IR=(6,17), AC=45.00, MBR=45.00
+          Status=1, IV=0, PT=1ade280, cycle=15
+Fetched: Pid=2, PC=7, IR=(2,16), AC=45.00, MBR=22.00
+          Status=1, IV=4, PT=1ade280, cycle=16
+Executed: Pid=2, PC=8, IR=(2,16), AC=22.00, MBR=22.00
+          Status=1, IV=4, PT=1ade280, cycle=16
+Interrupt handler: pid = 2; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=2, PC=8, IR=(4,17), AC=22.00, MBR=45.00
+          Status=1, IV=0, PT=1ade280, cycle=17
+Executed: Pid=2, PC=9, IR=(4,17), AC=990.00, MBR=45.00
+          Status=1, IV=0, PT=1ade280, cycle=17
+Fetched: Pid=2, PC=9, IR=(6,18), AC=990.00, MBR=45.00
+          Status=1, IV=4, PT=1ade280, cycle=18
+Executed: Pid=2, PC=10, IR=(6,18), AC=990.00, MBR=990.00
+          Status=1, IV=4, PT=1ade280, cycle=18
+Interrupt handler: pid = 2; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=2, PC=10, IR=(7,18), AC=990.00, MBR=990.00
+          Status=1, IV=0, PT=1ade280, cycle=19
+Executed: Pid=2, PC=11, IR=(7,18), AC=990.00, MBR=990.00
+          Status=4, IV=0, PT=1ade280, cycle=19
+Fetched: Pid=3, PC=4, IR=(4,14), AC=10000.00, MBR=5.00
+          Status=1, IV=6, PT=1ade440, cycle=20
+Executed: Pid=3, PC=5, IR=(4,14), AC=50000.00, MBR=5.00
+          Status=1, IV=6, PT=1ade440, cycle=20
+Interrupt handler: pid = 3; interrupt = 6; exeStatus = 1
+IV is 6, after clear is 2
+IV is 2, after clear is 0
+Fetched: Pid=3, PC=5, IR=(6,17), AC=50000.00, MBR=5.00
+          Status=1, IV=0, PT=1ade440, cycle=21
+Executed: Pid=3, PC=6, IR=(6,17), AC=50000.00, MBR=50000.00
+          Status=1, IV=0, PT=1ade440, cycle=21
+Fetched: Pid=3, PC=6, IR=(7,17), AC=50000.00, MBR=50000.00
+          Status=1, IV=4, PT=1ade440, cycle=22
+Executed: Pid=3, PC=7, IR=(7,17), AC=50000.00, MBR=50000.00
+          Status=4, IV=4, PT=1ade440, cycle=22
+Interrupt handler: pid = 3; interrupt = 4; exeStatus = 4
+IV is 4, after clear is 0
+Fetched: Pid=2, PC=11, IR=(1,12), AC=990.00, MBR=50000.00
+          Status=1, IV=2, PT=1ade280, cycle=23
+Executed: Pid=2, PC=12, IR=(1,12), AC=990.00, MBR=50000.00
+          Status=0, IV=2, PT=1ade280, cycle=23
+Interrupt handler: pid = 2; interrupt = 2; exeStatus = 0
+IV is 2, after clear is 0
+Free PCB: 28172304
+Fetched: Pid=3, PC=7, IR=(3,15), AC=50000.00, MBR=10000.00
+          Status=1, IV=4, PT=1ade440, cycle=24
+Executed: Pid=3, PC=8, IR=(3,15), AC=60000.00, MBR=10000.00
+          Status=1, IV=4, PT=1ade440, cycle=24
+Interrupt handler: pid = 3; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=3, PC=8, IR=(6,18), AC=60000.00, MBR=10000.00
+          Status=1, IV=0, PT=1ade440, cycle=25
+Executed: Pid=3, PC=9, IR=(6,18), AC=60000.00, MBR=60000.00
+          Status=1, IV=0, PT=1ade440, cycle=25
+Fetched: Pid=3, PC=9, IR=(7,18), AC=60000.00, MBR=60000.00
+          Status=1, IV=4, PT=1ade440, cycle=26
+Executed: Pid=3, PC=10, IR=(7,18), AC=60000.00, MBR=60000.00
+          Status=4, IV=4, PT=1ade440, cycle=26
+Interrupt handler: pid = 3; interrupt = 4; exeStatus = 4
+IV is 4, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=2, PT=1add6a0, cycle=27
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=2, PT=1add6a0, cycle=27
+Interrupt handler: pid = 1; interrupt = 2; exeStatus = 1
+IV is 2, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=28
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=28
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=29
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=29
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+Fetched: Pid=3, PC=10, IR=(8,2), AC=60000.00, MBR=0.00
+          Status=1, IV=4, PT=1ade440, cycle=30
+Executed: Pid=3, PC=11, IR=(8,2), AC=60000.00, MBR=0.00
+          Status=4, IV=4, PT=1ade440, cycle=30
+Interrupt handler: pid = 3; interrupt = 4; exeStatus = 4
+IV is 4, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=2, PT=1add6a0, cycle=31
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=2, PT=1add6a0, cycle=31
+Interrupt handler: pid = 1; interrupt = 2; exeStatus = 1
+IV is 2, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=32
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=32
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=33
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=33
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+Fetched: Pid=3, PC=11, IR=(1,12), AC=60000.00, MBR=0.00
+          Status=1, IV=4, PT=1ade440, cycle=34
+Executed: Pid=3, PC=12, IR=(1,12), AC=60000.00, MBR=0.00
+          Status=0, IV=4, PT=1ade440, cycle=34
+Interrupt handler: pid = 3; interrupt = 4; exeStatus = 0
+IV is 4, after clear is 0
+Free PCB: 28173232
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=35
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=35
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=36
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=36
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=37
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=37
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=38
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=38
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=39
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=39
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=40
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=40
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=41
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=41
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=42
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=42
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=43
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=43
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=44
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=44
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=45
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=45
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=46
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=46
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=47
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=47
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=48
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=48
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=49
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=49
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=50
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=50
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=51
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=51
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=52
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=52
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=53
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=53
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=54
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=54
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=55
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=55
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=56
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=56
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=57
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=57
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=58
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=58
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=59
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=59
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=60
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=60
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=61
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=61
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=62
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=62
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=63
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=63
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=64
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=64
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=65
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=65
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=66
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=66
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=67
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=67
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=68
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=68
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=69
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=69
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=70
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=70
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=71
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=71
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=72
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=72
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=73
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=73
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=74
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=74
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=75
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=75
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=76
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=76
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=77
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=77
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=78
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=78
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=79
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=79
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=80
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=80
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=81
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=81
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=82
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=82
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=83
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=83
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=84
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=84
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=85
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=85
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=86
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=86
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=87
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=87
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=88
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=88
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=89
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=89
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=90
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=90
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=91
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=91
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=92
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=92
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=93
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=93
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=94
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=94
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=95
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=95
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=96
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=96
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=97
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=97
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=98
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=98
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=99
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=99
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=100
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=100
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=101
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=101
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=102
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=102
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=103
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=103
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=104
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=104
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=105
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=105
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=106
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=106
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=107
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=107
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=108
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=108
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=109
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=109
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=110
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=110
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=111
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=111
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=112
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=112
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=113
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=113
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=114
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=114
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=115
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=115
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=116
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=116
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=117
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=117
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=118
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=118
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=119
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=119
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=120
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=120
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=121
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=121
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=122
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=122
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=123
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=123
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=124
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=124
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=125
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=125
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=126
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=126
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=127
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=127
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=128
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=128
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=129
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=129
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=130
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=130
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=131
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=131
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=132
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=132
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=133
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=133
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=134
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=134
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=135
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=135
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=136
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=136
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=137
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=137
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=138
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=138
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=139
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=139
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=140
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=140
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=141
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=141
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=142
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=5, PT=1add6a0, cycle=142
+Interrupt handler: pid = 1; interrupt = 5; exeStatus = 1
+IV is 5, after clear is 1
+IV is 1, after clear is 0
+No ready process now!!!
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=143
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=0, PT=1add6a0, cycle=143
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=144
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=4, PT=1add6a0, cycle=144
+Interrupt handler: pid = 1; interrupt = 4; exeStatus = 1
+IV is 4, after clear is 0
+Fetched: Pid=1, PC=1, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=145
+Executed: Pid=1, PC=0, IR=(5,0), AC=0.00, MBR=0.00
+          Status=1, IV=1, PT=1add6a0, cycle=145
+Interrupt handler: pid = 1; interrupt = 1; exeStatus = 1
+IV is 1, after clear is 0
